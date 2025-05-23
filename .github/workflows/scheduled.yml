@@ -1,0 +1,60 @@
+name: reports and widgets api automation
+
+on:
+  schedule:
+    - cron: "30 13 * * *"  ## Runs the pipeline every day 7pm IST
+
+jobs:
+  run-reports-docker:
+    name: Pull and run the reports docker image
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Auth to GCR
+        run: echo ${{SECRET}}ogin ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Pull reports docker image
+        run: docker pull ghcr.io/revlitix/reports:latest
+
+      - name: Run reports docker container
+        run: docker run ghcr.io/revlitix/reports:latest
+
+      - name: Send Reports Result to Slack
+        if: always()
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: https://hooks.slack.com/services/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
+          SLACK_CHANNEL: "#automation"
+          SLACK_MESSAGE: |
+            🚀 *Reports API Automation Pipeline Result*  
+            *Status:* ${{ job.status }} 
+            *Branch:* ${{ github.ref_name }}
+          SLACK_USERNAME: "GitHub Actions Bot"
+
+  run-widgets-docker:
+    name: Pull and run the widgets docker image
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Auth to GCR
+        run: echo ${{SECRET}} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Pull widgets docker image
+        run: docker pull ghcr.io/revlitix/widgets:latest
+
+      - name: Run widgets docker container
+        run: |
+          docker run ghcr.io/revlitix/widgets:latest
+      
+
+      - name: Send Widgets Result to Slack
+        if: always()
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: https://hooks.slack.com/services/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
+          SLACK_CHANNEL: "#automation"
+          SLACK_MESSAGE: |
+            🚀 *Widgets API Automation Pipeline Result*  
+            *Status:* ${{ job.status }}   
+            *Branch:* ${{ github.ref_name }}
+          SLACK_USERNAME: "GitHub Actions Bot"
