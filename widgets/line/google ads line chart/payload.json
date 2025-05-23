@@ -1,0 +1,652 @@
+{
+  "report": {
+    "create": {
+      "reportName": "Joshua Ruiz"
+    },
+    "line": {
+    "reportId": "67d7c82e253ec046c4de71df",
+    "title": "line",
+    "integrationType": "GOOGLE_ADS",
+    "chartType": "LINE_CHART_WITH_ONE_DROPDOWN",
+    "recordType": "GOOGLE_ADS_KEYWORD",
+    "description": "a",
+    "customTemplate": false,
+    "widgetId": null,
+    "excludeWeekends": false,
+    "prompt": "I want you to act as an AI Analyst with specialization in Google Ads, you will generate summary tailored to the needs of a Hands-on Marketing Leader.\n\nYou will be given Google Ads data. You have to perform analysis and generate summary.",
+    "lineChartWithOneDropdown": {
+        "xAxis": [
+            {
+                "id": "6662d22ffa56a9220ffe27cb",
+                "displayName": "Date",
+                "key": "date",
+                "dataAggregationType": [
+                    "NONE"
+                ],
+                "dataType": "DATE",
+                "operatorTypes": [
+                    "IS",
+                    "EQUAL_TO",
+                    "LESS_THAN",
+                    "LESS_THAN_EQUAL_TO",
+                    "GREATER_THAN",
+                    "GREATER_THAN_EQUAL_TO",
+                    "NOT_EQUAL_TO",
+                    "IN_THE_SAME_WEEK",
+                    "IN_THE_SAME_MONTH",
+                    "IN_THE_SAME_QUARTER",
+                    "IN_THE_SAME_YEAR"
+                ],
+                "smartRule": true,
+                "kpiType": "STANDARD_FIELD",
+                "customFieldTrend": "POSITIVE",
+                "unit": "",
+                "dataUnit": {},
+                "increasingGreen": true,
+                "dateUnit": [
+                    "DATE",
+                    "DAYS"
+                ],
+                "dimension": false,
+                "ruleKpi": true,
+                "sourceFieldName": "date",
+                "sourceDisplayName": "Date",
+                "revlitixLabel": "Date",
+                "integrationType": "GOOGLE_ADS",
+                "objectType": "GOOGLE_ADS_KEYWORD",
+                "customField": false,
+                "notEtlField": false,
+                "funnelStage": false,
+                "defaultField": false,
+                "widgetAnalysis": false,
+                "createdOn": 1717752367822,
+                "creatorName": "System",
+                "updatedOn": 1717752367822
+            }
+        ],
+        "yAxis": [
+            {
+                "key": "clicks",
+                "defaultField": false,
+                "displayName": "Clicks",
+                "dataType": "INTEGER",
+                "customMetric": false,
+                "prefix": "",
+                "suffix": "",
+                "funnelStage": false,
+                "objectType": "GOOGLE_ADS_KEYWORD",
+                "objectTypeDisplayName": "Keyword",
+                "integrationType": "GOOGLE_ADS",
+                "customFieldTrend": "POSITIVE",
+                "funnelMetric": false,
+                "color": "#7FD0F7"
+            }
+        ]
+    },
+    "startDate": "2024-03-18T00:00:00.000Z",
+    "endDate": "2025-03-17T23:59:59.999Z",
+    "dateRangeType": "DAY_LAST_THREE_SIXTY_FIVE_DAYS",
+    "aggregation": "DAILY",
+    "widgetFilters": [],
+    "dateField": null,
+    "showValues": true,
+    "manualScale": false,
+    "scales": null,
+    "sort": {
+        "id": "6662d22ffa56a9220ffe27cb",
+        "displayName": "Date",
+        "key": "date",
+        "dataAggregationType": [
+            "NONE"
+        ],
+        "dataType": "DATE",
+        "operatorTypes": [
+            "IS",
+            "EQUAL_TO",
+            "LESS_THAN",
+            "LESS_THAN_EQUAL_TO",
+            "GREATER_THAN",
+            "GREATER_THAN_EQUAL_TO",
+            "NOT_EQUAL_TO",
+            "IN_THE_SAME_WEEK",
+            "IN_THE_SAME_MONTH",
+            "IN_THE_SAME_QUARTER",
+            "IN_THE_SAME_YEAR"
+        ],
+        "smartRule": true,
+        "kpiType": "STANDARD_FIELD",
+        "customFieldTrend": "POSITIVE",
+        "unit": "",
+        "dataUnit": {},
+        "increasingGreen": true,
+        "dateUnit": [
+            "DATE",
+            "DAYS"
+        ],
+        "dimension": false,
+        "ruleKpi": true,
+        "sourceFieldName": "date",
+        "sourceDisplayName": "Date",
+        "revlitixLabel": "Date",
+        "integrationType": "GOOGLE_ADS",
+        "objectType": "GOOGLE_ADS_KEYWORD",
+        "customField": false,
+        "notEtlField": false,
+        "funnelStage": false,
+        "defaultField": false,
+        "widgetAnalysis": false,
+        "createdOn": 1717752367822,
+        "creatorName": "System",
+        "updatedOn": 1717752367822
+    },
+    "sortDirection": "ASC",
+    "dateFormat": null,
+    "comparisonAllowed": false,
+    "comparisonType": null,
+    "globalFiltersMap": null
+},
+    "custom filter": [
+    {
+        "filterName": "automation backend google ads",
+        "dimensionFilters": [],
+        "metricFilters": [
+            {
+                "integrationType": "GOOGLE_ADS",
+                "objectType": "GOOGLE_ADS_KEYWORD",
+                "conditionId": "root",
+                "aggregationType": "AND",
+                "bucketConditions": [
+                    {
+                        "conditionId": "ae4c024b-b095-4a5f-bd7e-8a73d846b6ad",
+                        "id": "ae4c024b-b095-4a5f-bd7e-8a73d846b6ad",
+                        "key": "clicks",
+                        "displayName": "Clicks",
+                        "dataType": "INTEGER",
+                        "rawSearchOperatorType": "GREATER_THAN",
+                        "customMetric": false,
+                        "funnelStage": false,
+                        "funnelMetric": false,
+                        "prefix": "",
+                        "suffix": "",
+                        "existingField": false,
+                        "value": "2",
+                        "objectType": "GOOGLE_ADS_KEYWORD",
+                        "integrationType": "GOOGLE_ADS"
+                    }
+                ],
+                "innerBucketGroupFeed": []
+            }
+        ],
+        "filterApplied": true,
+        "defaultFilter": true,
+        "globalFilter": false,
+        "saveToGlobal": false,
+        "dateField": null,
+        "id": "643b0e14-d6ea-42bf-b2f5-c63fa6e76476"
+    }
+],
+    "global filter":{
+      "globalFiltersMap": {
+      "67dbe4c402771a1fb1ee29bf": true
+    },
+    "widget filter": [
+    {
+        "dimensionFilters": [],
+        "metricFilters": [
+            {
+                "integrationType": "GOOGLE_ADS",
+                "objectType": "GOOGLE_ADS_KEYWORD",
+                "bucketConditions": [
+                    {
+                        "key": "clicks",
+                        "displayName": "Clicks",
+                        "dataType": "INTEGER",
+                        "rawSearchOperatorType": "GREATER_THAN",
+                        "customMetric": false,
+                        "funnelStage": false,
+                        "funnelMetric": false,
+                        "prefix": "",
+                        "suffix": "",
+                        "existingField": false,
+                        "value": "2",
+                        "objectType": "GOOGLE_ADS_KEYWORD",
+                        "integrationType": "GOOGLE_ADS",
+                        "conditionId": "5a425170-9e8b-44bd-8c8e-f5d6be9f1205"
+                    }
+                ],
+                "conditionId": "root",
+                "aggregationType": "AND",
+                "innerBucketGroupFeed": []
+            }
+        ],
+        "id": "67dbe4c402771a1fb1ee29bf",
+        "filterName": "automation backend google ads",
+        "integrationType": "GOOGLE_ADS",
+        "objectType": "GOOGLE_ADS_KEYWORD",
+        "createdOn": "2025-03-20T09:49:56.744+00:00",
+        "updatedOn": "2025-03-20T09:50:14.266+00:00",
+        "filterApplied": true,
+        "globalFilter": true
+    }
+]
+    }
+    },
+    "login": {
+    "emailId": "qat@revlitix.com",
+    "password": "Qa_Can_Save_You@Revlitix2",
+    "domain": "https://app.dev.revlitix.com"
+},
+    "global date": {
+    "globalStartDate": "2022-03-17T00:00:00.000Z",
+    "globalEndDate": "2024-03-17T23:59:59.999Z",
+    "globalDateRange": "CUSTOM",
+    "reportId": "6822fbe372b22553166bdc31"
+},
+    "widget alerts": {
+    "name": "dad",
+    "description": "a",
+    "widgetId": "681afcb29440b34a4b6c08b3",
+    "filters": [],
+    "conditions": [
+        {
+            "integrationType": null,
+            "objectType": null,
+            "conditionId": "e59a6d9b-42e5-4682-9e56-1adff876591b",
+            "aggregationType": "AND",
+            "bucketConditions": [
+                {
+                    "conditionId": "54607ab2-d7b1-44c0-aac0-91a7c3456714",
+                    "id": "54607ab2-d7b1-44c0-aac0-91a7c3456714",
+                    "key": "automation_backend_google_ads_funnel_metrics_C_1_C",
+                    "displayName": "automation backend google ads funnel metrics",
+                    "dataType": "DOUBLE",
+                    "rawSearchOperatorType": "GREATER_THAN",
+                    "customMetric": false,
+                    "funnelStage": false,
+                    "funnelMetric": true,
+                    "prefix": "",
+                    "suffix": "",
+                    "existingField": false,
+                    "value": "2",
+                    "objectType": "GOOGLE_ADS_KEYWORD",
+                    "integrationType": "GOOGLE_ADS"
+                }
+            ],
+            "innerBucketGroupFeed": []
+        }
+    ],
+    "dateRange": {
+        "dateRangeType": "CUSTOM",
+        "startDate": "2024-05-15T00:00:00.000Z",
+        "endDate": "2025-05-14T23:59:59.999Z"
+    },
+    "frequency": {
+        "frequencyType": "DAILY",
+        "days": null,
+        "weekDays": null,
+        "time": "00:00"
+    },
+    "impactType": "NEGATIVE_IMPACT",
+    "notificationGroups": [
+        "656f520385436032401ea8a9"
+    ],
+    "computationType": "ROW_WISE"
+},
+    "widget expansion": {
+    "dimensionFilters": [],
+    "metricFilters": [
+        {
+            "integrationType": "GOOGLE_ADS",
+            "objectType": "GOOGLE_ADS_KEYWORD",
+            "bucketConditions": [
+                {
+                    "key": "clicks",
+                    "displayName": "Clicks",
+                    "dataType": "INTEGER",
+                    "rawSearchOperatorType": "GREATER_THAN",
+                    "customMetric": false,
+                    "funnelStage": false,
+                    "funnelMetric": false,
+                    "prefix": "",
+                    "suffix": "",
+                    "existingField": false,
+                    "value": "2",
+                    "objectType": "GOOGLE_ADS_KEYWORD",
+                    "integrationType": "GOOGLE_ADS",
+                    "conditionId": "5a425170-9e8b-44bd-8c8e-f5d6be9f1205"
+                }
+            ],
+            "conditionId": "root",
+            "aggregationType": "AND",
+            "innerBucketGroupFeed": []
+        }
+    ],
+    "recordType": "GOOGLE_ADS_KEYWORD",
+    "integrationType": "GOOGLE_ADS",
+    "aggregationType": "YEARLY",
+    "widgetId": "6823142172b22553166bdc4e",
+    "startDate": "2022-03-17T00:00:00.000Z",
+    "endDate": "2024-03-17T23:59:59.999Z",
+    "sort": {
+        "key": "date",
+        "displayName": "Date",
+        "dataType": "DATE",
+        "customMetric": false,
+        "funnelStage": false,
+        "funnelMetric": false,
+        "color": null,
+        "prefix": null,
+        "suffix": null
+    },
+    "sortDirection": "ASC",
+    "includeZero": true,
+    "xAxis": {
+        "key": "date",
+        "displayName": "Date",
+        "dataType": "DATE",
+        "customMetric": false,
+        "funnelStage": false,
+        "funnelMetric": false,
+        "color": null,
+        "prefix": null,
+        "suffix": null
+    },
+    "yAxis": [
+        {
+            "color": null,
+            "customMetric": false,
+            "dataType": "DOUBLE",
+            "displayName": "automation backend google ads funnel metrics",
+            "funnelStage": false,
+            "key": "automation_backend_google_ads_funnel_metrics_C_1_C",
+            "prefix": "",
+            "suffix": "",
+            "funnelMetric": true,
+            "customFieldTrend": "POSITIVE"
+        }
+    ],
+    "excludeWeekends": true
+},
+    "summary": {
+    "apiCall": "DOWNLOAD",
+    "dataPayload": {
+        "id": "67dbe4c402771a1fb1ee29bf",
+        "filterName": "automation backend google ads",
+        "filterApplied": true,
+        "dateField": null,
+        "defaultFilter": false,
+        "globalFilter": true,
+        "saveToGlobal": false,
+        "dimensionFilters": [],
+        "metricFilters": [
+            {
+                "integrationType": "GOOGLE_ADS",
+                "objectType": "GOOGLE_ADS_KEYWORD",
+                "bucketConditions": [
+                    {
+                        "key": "clicks",
+                        "displayName": "Clicks",
+                        "dataType": "INTEGER",
+                        "rawSearchOperatorType": "GREATER_THAN",
+                        "customMetric": false,
+                        "funnelStage": false,
+                        "funnelMetric": false,
+                        "prefix": "",
+                        "suffix": "",
+                        "existingField": false,
+                        "value": "2",
+                        "objectType": "GOOGLE_ADS_KEYWORD",
+                        "integrationType": "GOOGLE_ADS",
+                        "conditionId": "5a425170-9e8b-44bd-8c8e-f5d6be9f1205"
+                    }
+                ],
+                "conditionId": "root",
+                "aggregationType": "AND",
+                "innerBucketGroupFeed": []
+            }
+        ],
+        "recordType": "GOOGLE_ADS_KEYWORD",
+        "integrationType": "GOOGLE_ADS",
+        "aggregationType": "YEARLY",
+        "widgetId": "67e519dce6f79c2f95854548",
+        "startDate": "2022-03-17T00:00:00.000Z",
+        "endDate": "2024-03-17T23:59:59.999Z",
+        "sort": {
+            "key": "date",
+            "displayName": "Date",
+            "dataType": "DATE",
+            "customMetric": false,
+            "funnelStage": false,
+            "color": null,
+            "prefix": null,
+            "suffix": null
+        },
+        "sortDirection": "ASC",
+        "includeZero": true,
+        "xAxis": {
+            "key": "date",
+            "displayName": "Date",
+            "dataType": "DATE",
+            "customMetric": false,
+            "funnelStage": false,
+            "color": null,
+            "prefix": null,
+            "suffix": null
+        },
+        "yAxis": [
+            {
+                "color": null,
+                "customMetric": false,
+                "dataType": "DOUBLE",
+                "displayName": "automation backend google ads funnel metrics",
+                "funnelStage": false,
+                "key": "automation_backend_google_ads_funnel_metrics_C_1_C",
+                "prefix": "",
+                "suffix": "",
+                "funnelMetric": true,
+                "customFieldTrend": "POSITIVE"
+            }
+        ],
+        "excludeWeekends": true,
+        "limit": 25000,
+        "kpis": "automation_backend_google_ads_funnel_metrics_C_1_C"
+    },
+    "dataEndpoint": "/v1/rawdata/custom/kpi/trend/download",
+    "widget_mapping_config": {
+        "widgetId": "67e519dce6f79c2f95854548",
+        "reportId": "67e519da3b3e6476896d8736",
+        "title": "Samantha Norton",
+        "description": "a",
+        "chartType": "LINE_CHART_WITH_ONE_DROPDOWN",
+        "integrationType": "GOOGLE_ADS",
+        "chartWidth": 12,
+        "chartHeight": 20,
+        "minChartWidth": 2,
+        "maxChartWidth": 12,
+        "minChartHeight": 10,
+        "maxChartHeight": 99,
+        "resizable": true,
+        "draggable": true,
+        "dataApiEndpoint": "/v1/rawdata/custom/kpi/trend",
+        "downloadDataApiEndpoint": "/v1/rawdata/custom/kpi/trend/download",
+        "searchable": false,
+        "autoComplete": false,
+        "previewImageUrl": "https://revlitix-app-public.s3.us-west-2.amazonaws.com/widget-reports/Multi+KPI+Trendlines.png",
+        "dataFilter": true,
+        "goalTracking": true,
+        "widgetEditable": true,
+        "lineChartWithOneDropdown": {
+            "dropdown1": {
+                "name": null,
+                "defaultSelected": null,
+                "values": [],
+                "dropdownPlaceholder": null,
+                "color": null,
+                "dropdownApiEndpoint": null
+            },
+            "xAxis": [
+                {
+                    "key": "date",
+                    "displayName": "Date",
+                    "dataType": "DATE",
+                    "customMetric": false,
+                    "funnelStage": false,
+                    "color": null,
+                    "prefix": null,
+                    "suffix": null
+                }
+            ],
+            "yAxis": [
+                {
+                    "key": "automation_backend_google_ads_funnel_metrics_C_1_C",
+                    "displayName": "Clicks",
+                    "dataType": "INTEGER",
+                    "customMetric": false,
+                    "funnelStage": false,
+                    "color": "#7FD0F7",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "startDate": "2022-03-17T00:00:00.000Z",
+        "endDate": "2024-03-17T23:59:59.999Z",
+        "taskCount": 0,
+        "dateRangeType": "CUSTOM",
+        "aggregation": "YEARLY",
+        "globalFiltersMap": {
+            "67dbe4c402771a1fb1ee29bf": true
+        },
+        "conditionalFormattingRuleFeeds": [],
+        "widgetFilters": [
+            {
+                "id": "67dbe4c402771a1fb1ee29bf",
+                "filterName": "automation backend google ads",
+                "filterApplied": true,
+                "dateField": null,
+                "defaultFilter": false,
+                "globalFilter": true,
+                "saveToGlobal": false,
+                "dimensionFilters": [],
+                "metricFilters": [
+                    {
+                        "integrationType": "GOOGLE_ADS",
+                        "objectType": "GOOGLE_ADS_KEYWORD",
+                        "bucketConditions": [
+                            {
+                                "key": "clicks",
+                                "displayName": "Clicks",
+                                "dataType": "INTEGER",
+                                "rawSearchOperatorType": "GREATER_THAN",
+                                "customMetric": false,
+                                "funnelStage": false,
+                                "funnelMetric": false,
+                                "prefix": "",
+                                "suffix": "",
+                                "existingField": false,
+                                "value": "2",
+                                "objectType": "GOOGLE_ADS_KEYWORD",
+                                "integrationType": "GOOGLE_ADS",
+                                "conditionId": "5a425170-9e8b-44bd-8c8e-f5d6be9f1205"
+                            }
+                        ],
+                        "conditionId": "root",
+                        "aggregationType": "AND",
+                        "innerBucketGroupFeed": []
+                    }
+                ]
+            }
+        ],
+        "showValues": true,
+        "reportAdded": false,
+        "recordType": "GOOGLE_ADS_KEYWORD",
+        "dateFilter": true,
+        "dynamicWidget": false,
+        "customWidget": false,
+        "showFilterChips": false,
+        "comparisonAllowed": false,
+        "collapsed": false,
+        "sort": {
+            "key": "date",
+            "displayName": "Date",
+            "dataType": "DATE",
+            "customMetric": false,
+            "funnelStage": false,
+            "funnelMetric": false,
+            "existingField": false,
+            "objectType": "GOOGLE_ADS_KEYWORD",
+            "customFieldTrend": "POSITIVE",
+            "integrationType": "GOOGLE_ADS"
+        },
+        "sortDirection": "ASC",
+        "excludeWeekends": true,
+        "manualScale": false,
+        "openNotesPanel": true,
+        "prompt": "I want you to act as an AI Analyst with specialization in Google Ads, you will generate summary tailored to the needs of a Hands-on Marketing Leader.\n\nYou will be given Google Ads data. You have to perform analysis and generate summary.",
+        "position": 0,
+        "customTemplate": false
+    },
+    "widgetId": "67e519dce6f79c2f95854548"
+},
+    "task": {
+    "name": "check",
+    "integrationType": "GOOGLE_ANALYTICS_FOUR",
+    "widgetId": "67dbf0f202771a1fb1ee29eb",
+    "assigneeUserId": "6729dcdf968b1a2b2f960d7e",
+    "assignee": "Automation-Tester (Myself)",
+    "description": "<p>checking</p>",
+    "dueDate": "2025-03-19T18:30:00.000Z",
+    "priority": "NO_PRIORITY",
+    "reportViewType": "default"
+},
+    "download": {
+    "startDate": "2024-03-18T00:00:00.000Z",
+    "endDate": "2025-03-17T23:59:59.999Z",
+    "kpis": "clicks",
+    "widgetId": "67dd1161cca13d1daa031a58",
+    "dimensionFilters": [],
+    "metricFilters": [],
+    "recordType": "GOOGLE_ADS_KEYWORD",
+    "integrationType": "GOOGLE_ADS",
+    "aggregationType": "DAILY",
+    "sort": {
+        "key": "date",
+        "displayName": "Date",
+        "dataType": "DATE",
+        "customMetric": false,
+        "funnelStage": false,
+        "color": null,
+        "prefix": null,
+        "suffix": null
+    },
+    "sortDirection": "ASC",
+    "includeZero": true,
+    "xAxis": {
+        "key": "date",
+        "displayName": "Date",
+        "dataType": "DATE",
+        "customMetric": false,
+        "funnelStage": false,
+        "color": null,
+        "prefix": null,
+        "suffix": null
+    },
+    "yAxis": [
+        {
+            "color": "#7FD0F7",
+            "customMetric": false,
+            "dataType": "INTEGER",
+            "displayName": "Clicks",
+            "funnelStage": false,
+            "key": "clicks",
+            "prefix": "",
+            "suffix": "",
+            "funnelMetric": false,
+            "customFieldTrend": "POSITIVE"
+        }
+    ],
+    "excludeWeekends": false,
+    "limit": 25000
+}
+
+    }

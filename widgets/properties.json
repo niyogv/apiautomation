@@ -1,0 +1,20 @@
+{
+  "report": {
+    "login": "https://app.dev.revlitix.com/v1/tokens/login",
+    "create report": "https://app.dev.revlitix.com/v1/reports/view",
+    "delete report": "https://app.dev.revlitix.com/v1/reports/view/"
+  },
+  "chart": {
+    "create chart": "https://app.dev.revlitix.com/v1/reports/view/widget",
+    "download csv": "https://app.dev.revlitix.com/v1/rawdata/custom/kpi/trend/download",
+    "download csv custom": "https://app.dev.revlitix.com/v1/rawdata/custom/donut/chart/download",
+    "task": "https://app.dev.revlitix.com/v1/tasks",
+    "summary": "https://app.dev.revlitix.com/v1/agent/widget/summary",
+    "update chart": "https://app.dev.revlitix.com/v1/reports/view/widget/",
+    "delete chart": "https://app.dev.revlitix.com/v1/reports/view/",
+    "get chart": "https://app.dev.revlitix.com/v1/reports/view/",
+    "widget expansion": "https://app.dev.revlitix.com/v1/rawdata/custom/kpi/trend",
+    "global date": "https://app.dev.revlitix.com/v1/reports/view/update/global-date",
+    "alerts": "https://app.dev.revlitix.com/v1/reports/widget/alerts"
+  }
+  }

@@ -1,0 +1,135 @@
+{
+  "login": {
+    "emailId": "qat@revlitix.com",
+    "password": "Qa_Can_Save_You@Revlitix2",
+    "domain": "https://app.dev.revlitix.com"
+},
+  "report": {
+    "create": {
+      "reportName": "Joshua Ruiz"
+    }
+  },
+  "tab": {
+    "reportId": "67e3a5c14982d9784d64b4dc",
+    "title": "over tab",
+    "integrationType": "SALESFORCE_CRM",
+    "chartType": "TABULAR_WITH_NO_DROPDOWN",
+    "recordType": "SALESFORCE_LEAD",
+    "description": "a",
+    "customTemplate": false,
+    "widgetId": null,
+    "excludeWeekends": false,
+    "prompt": "I want you to act as an AI Analyst with specialization in Salesforce CRM, you will generate summary tailored to the needs of a Hands-on Marketing Leader.\n\nYou will be given Salesforce CRM data. You have to perform analysis and generate summary.",
+    "startDate": "2025-03-25T00:00:00.000Z",
+    "endDate": "2025-04-23T23:59:59.999Z",
+    "dateRangeType": "LAST_THIRTY_DAYS",
+    "enabledColumns": {
+        "columnNames": null
+    },
+    "sort": null,
+    "sortDirection": null,
+    "tabularWithNoDropdown": {
+        "dimensions": [
+            {
+                "key": "Email_C",
+                "defaultField": false,
+                "displayName": "Email",
+                "dataType": "STRING",
+                "customMetric": false,
+                "prefix": "",
+                "suffix": "",
+                "funnelStage": false,
+                "objectType": "SALESFORCE_LEAD",
+                "objectTypeDisplayName": "Lead",
+                "integrationType": "SALESFORCE_CRM",
+                "customFieldTrend": null,
+                "funnelMetric": false,
+                "parentObject": "SALESFORCE_LEAD"
+            }
+        ],
+        "metrics": [
+            {
+                "key": "recordCount",
+                "displayName": "Record Count",
+                "dataType": "INTEGER",
+                "prefix": "",
+                "suffix": "",
+                "funnelStage": false,
+                "objectType": "",
+                "objectTypeDisplayName": "",
+                "customFieldTrend": null,
+                "funnelMetric": false
+            }
+        ],
+        "showDeltaMetrics": false,
+        "showWeightageMetrics": false,
+        "weightageMetrics": null,
+        "deltaMetrics": null,
+        "dataAggregationType": null,
+        "showPreviousValue": false,
+        "limit": 100
+    },
+    "widgetFilters": [],
+    "dateField": {
+        "id": "672c90488d2eec19141e1609",
+        "displayName": "Converted Date",
+        "key": "leadConvertedDate",
+        "dataAggregationType": [
+            "NONE"
+        ],
+        "dataType": "DATE",
+        "operatorTypes": [
+            "IS",
+            "EQUAL_TO",
+            "LESS_THAN",
+            "LESS_THAN_EQUAL_TO",
+            "GREATER_THAN",
+            "GREATER_THAN_EQUAL_TO",
+            "NOT_EQUAL_TO",
+            "IN_THE_SAME_WEEK",
+            "IN_THE_SAME_MONTH",
+            "IN_THE_SAME_QUARTER",
+            "IN_THE_SAME_YEAR"
+        ],
+        "smartRule": false,
+        "kpiType": "CRM_FIELD",
+        "dataUnit": {},
+        "increasingGreen": false,
+        "postOperator": [
+            "BEFORE_TODAY",
+            "AFTER_TODAY"
+        ],
+        "dateUnit": [
+            "DATE",
+            "DAYS"
+        ],
+        "ruleKpi": true,
+        "sourceFieldName": "ConvertedDate",
+        "sourceDisplayName": "Converted Date",
+        "fieldType": "INTERNAL",
+        "revlitixLabel": "Lead Converted Date",
+        "integrationType": "SALESFORCE_CRM",
+        "objectType": "SALESFORCE_LEAD",
+        "customField": false,
+        "notEtlField": false,
+        "funnelStage": false,
+        "parentObject": "SALESFORCE_LEAD",
+        "defaultField": true,
+        "widgetAnalysis": false,
+        "createdOn": 1730973768640
+    },
+    "globalFiltersMap": null,
+    "columnProperties": {}
+},
+   "task": {
+    "name": "check",
+    "integrationType": "SALESFORCE_CRM",
+    "widgetId": "67dbf0f202771a1fb1ee29eb",
+    "assigneeUserId": "6729dcdf968b1a2b2f960d7e",
+    "assignee": "Automation-Tester (Myself)",
+    "description": "<p>checking</p>",
+    "dueDate": "2025-03-19T18:30:00.000Z",
+    "priority": "NO_PRIORITY",
+    "reportViewType": "default"
+}
+}

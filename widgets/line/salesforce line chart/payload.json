@@ -1,0 +1,571 @@
+{
+  "report": {
+    "create": {
+      "reportName": "Joshua Ruiz"
+    },
+    "line": {
+      "reportId": "67d2a14cf9addc1503f4ee54",
+      "title": "line chart salesforce quarterly aggregation",
+      "integrationType": "SALESFORCE_CRM",
+      "chartType": "LINE_CHART_WITH_ONE_DROPDOWN",
+      "recordType": "SALESFORCE_CONTACT",
+      "description": "dfg",
+      "customTemplate": false,
+      "widgetId": null,
+      "excludeWeekends": false,
+      "prompt": "I want you to act as an AI Analyst with specialization in Ads/Analytics/Marketing/CRM, you will generate summary tailored to the needs of a Hands-on Marketing Leader.\n\nYou will be given Ads/Analytics/Marketing/CRM data. You have to perform analysis and generate summary.",
+      "lineChartWithOneDropdown": {
+        "xAxis": [
+          {
+            "id": "6759816fe3ea0c42ac8f03fa",
+            "displayName": "Last Activity",
+            "key": "lastActivityDate",
+            "dataAggregationType": [
+              "NONE"
+            ],
+            "dataType": "DATE",
+            "operatorTypes": [
+              "IS",
+              "EQUAL_TO",
+              "LESS_THAN",
+              "LESS_THAN_EQUAL_TO",
+              "GREATER_THAN",
+              "GREATER_THAN_EQUAL_TO",
+              "NOT_EQUAL_TO",
+              "IN_THE_SAME_WEEK",
+              "IN_THE_SAME_MONTH",
+              "IN_THE_SAME_QUARTER",
+              "IN_THE_SAME_YEAR"
+            ],
+            "smartRule": false,
+            "kpiType": "CRM_FIELD",
+            "dataUnit": {},
+            "increasingGreen": false,
+            "postOperator": [
+              "BEFORE_TODAY",
+              "AFTER_TODAY"
+            ],
+            "dateUnit": [
+              "DATE",
+              "DAYS"
+            ],
+            "ruleKpi": true,
+            "sourceFieldName": "LastActivityDate",
+            "sourceDisplayName": "Last Activity",
+            "fieldType": "INTERNAL",
+            "revlitixLabel": "Last Activity Date",
+            "integrationType": "SALESFORCE_CRM",
+            "objectType": "SALESFORCE_CONTACT",
+            "customField": false,
+            "notEtlField": false,
+            "funnelStage": false,
+            "parentObject": "SALESFORCE_CONTACT",
+            "defaultField": false,
+            "widgetAnalysis": false,
+            "createdOn": 1733919087867
+          }
+        ],
+        "yAxis": [
+          {
+            "key": "recordCount",
+            "displayName": "Record Count",
+            "dataType": "INTEGER",
+            "prefix": "",
+            "suffix": "",
+            "funnelStage": false,
+            "objectType": "",
+            "objectTypeDisplayName": "",
+            "customFieldTrend": null,
+            "funnelMetric": false,
+            "color": "#7FD0F7"
+          }
+        ]
+      },
+      "startDate": "2024-02-05T00:00:00.000Z",
+      "endDate": "2025-02-03T23:59:59.999Z",
+      "dateRangeType": "DAY_LAST_THREE_SIXTY_FIVE_DAYS",
+      "aggregation": "QUARTERLY",
+      "widgetFilters": [],
+      "dateField": null,
+      "showValues": false,
+      "manualScale": false,
+      "scales": null,
+      "sort": null,
+      "sortDirection": "ASC",
+      "dateFormat": null,
+      "comparisonAllowed": false,
+      "globalFiltersMap": null
+    },
+    "custom filter": [
+      {
+        "id": "931ea86d7f17dc50517531decf9fb462",
+        "filterName": "ss",
+        "filterApplied": true,
+        "dateField": null,
+        "defaultFilter": true,
+        "globalFilter": false,
+        "saveToGlobal": false,
+        "conditions": [],
+        "dimensionFilters": [],
+        "metricFilters": [
+          {
+            "integrationType": "SALESFORCE_CRM",
+            "objectType": "SALESFORCE_CONTACT",
+            "bucketConditions": [
+              {
+                "key": "maxEmployees",
+                "displayName": "Maximum Employee Size",
+                "dataType": "INTEGER",
+                "rawSearchOperatorType": "GREATER_THAN",
+                "customMetric": false,
+                "funnelStage": false,
+                "funnelMetric": false,
+                "prefix": "",
+                "suffix": "",
+                "existingField": false,
+                "value": "1",
+                "objectType": "SALESFORCE_CONTACT",
+                "integrationType": "SALESFORCE_CRM",
+                "conditionId": "e30c32c2-312e-4fa3-a89b-11a0eb1e7816"
+              }
+            ],
+            "conditionId": "root",
+            "aggregationType": "AND",
+            "innerBucketGroupFeed": []
+          }
+        ]
+      }
+    ],
+    "global filter": {
+      "globalFiltersMap": {
+        "67dbeb1acb80535cf06c9507": true
+      },
+        "widget filter": [
+    {
+        "dimensionFilters": [],
+        "metricFilters": [
+            {
+                "integrationType": "SALESFORCE_CRM",
+                "objectType": "SALESFORCE_CONTACT",
+                "bucketConditions": [
+                    {
+                        "key": "maxEmployees",
+                        "displayName": "Maximum Employee Size",
+                        "dataType": "INTEGER",
+                        "rawSearchOperatorType": "GREATER_THAN",
+                        "customMetric": false,
+                        "funnelStage": false,
+                        "funnelMetric": false,
+                        "prefix": "",
+                        "suffix": "",
+                        "existingField": false,
+                        "value": "2",
+                        "objectType": "SALESFORCE_CONTACT",
+                        "integrationType": "SALESFORCE_CRM",
+                        "conditionId": "d34a21c6-00b6-4597-a6fc-a80bd631f4f3"
+                    }
+                ],
+                "conditionId": "root",
+                "aggregationType": "AND",
+                "innerBucketGroupFeed": []
+            }
+        ],
+        "id": "67dbeb1acb80535cf06c9507",
+        "filterName": "automation backend salesforce",
+        "integrationType": "SALESFORCE_CRM",
+        "objectType": "SALESFORCE_CONTACT",
+        "createdOn": "2025-03-20T10:16:58.051+00:00",
+        "updatedOn": "2025-03-20T10:17:14.183+00:00",
+        "filterApplied": true,
+        "globalFilter": true
+    }
+]
+    }
+  },
+  "login": {
+    "emailId": "qat@revlitix.com",
+    "password": "Qa_Can_Save_You@Revlitix2",
+    "domain": "https://app.dev.revlitix.com"
+},
+  "global date": {
+    "globalStartDate": "2022-03-17T00:00:00.000Z",
+    "globalEndDate": "2024-03-17T23:59:59.999Z",
+    "globalDateRange": "CUSTOM",
+    "reportId": "6822fbe372b22553166bdc31"
+},
+  "widget expansion": {
+    "dimensionFilters": [],
+    "metricFilters": [
+        {
+            "integrationType": "SALESFORCE_CRM",
+            "objectType": "SALESFORCE_CONTACT",
+            "bucketConditions": [
+                {
+                    "key": "maxEmployees",
+                    "displayName": "Maximum Employee Size",
+                    "dataType": "INTEGER",
+                    "rawSearchOperatorType": "GREATER_THAN",
+                    "customMetric": false,
+                    "funnelStage": false,
+                    "funnelMetric": false,
+                    "prefix": "",
+                    "suffix": "",
+                    "existingField": false,
+                    "value": "2",
+                    "objectType": "SALESFORCE_CONTACT",
+                    "integrationType": "SALESFORCE_CRM",
+                    "conditionId": "d34a21c6-00b6-4597-a6fc-a80bd631f4f3"
+                }
+            ],
+            "conditionId": "root",
+            "aggregationType": "AND",
+            "innerBucketGroupFeed": []
+        }
+    ],
+    "recordType": "SALESFORCE_LEAD",
+    "integrationType": "SALESFORCE_CRM",
+    "aggregationType": "YEARLY",
+    "widgetId": "68242bde7a763226b78185ea",
+    "startDate": "2022-03-17T00:00:00.000Z",
+    "endDate": "2024-03-17T23:59:59.999Z",
+    "sort": null,
+    "sortDirection": null,
+    "includeZero": true,
+    "xAxis": {
+        "key": "leadConvertedDate",
+        "displayName": "Last Activity",
+        "dataType": "DATE",
+        "customMetric": false,
+        "funnelStage": false,
+        "funnelMetric": false,
+        "color": null,
+        "prefix": null,
+        "suffix": null
+    },
+    "yAxis": [
+        {
+            "color": null,
+            "customMetric": false,
+            "dataType": "DOUBLE",
+            "displayName": "automation backend funnel metrics",
+            "funnelStage": false,
+            "key": "automation_backend_funnel_metrics_C_1_C",
+            "prefix": "",
+            "suffix": "",
+            "funnelMetric": true,
+            "customFieldTrend": "POSITIVE"
+        }
+    ],
+    "excludeWeekends": true
+},
+  "widget alerts": {
+    "name": "dad",
+    "description": "a",
+    "widgetId": "681afcb29440b34a4b6c08b3",
+    "filters": [],
+    "conditions": [
+        {
+            "integrationType": null,
+            "objectType": null,
+            "conditionId": "e59a6d9b-42e5-4682-9e56-1adff876591b",
+            "aggregationType": "AND",
+            "bucketConditions": [
+                {
+                    "conditionId": "54607ab2-d7b1-44c0-aac0-91a7c3456714",
+                    "id": "54607ab2-d7b1-44c0-aac0-91a7c3456714",
+                    "key": "automation_backend_funnel_metrics_C_1_C",
+                    "displayName": "automation backend funnel metrics",
+                    "dataType": "DOUBLE",
+                    "rawSearchOperatorType": "GREATER_THAN",
+                    "customMetric": false,
+                    "funnelStage": false,
+                    "funnelMetric": true,
+                    "prefix": "",
+                    "suffix": "",
+                    "existingField": false,
+                    "value": "2",
+                    "objectType": "SALESFORCE_LEAD",
+                    "integrationType": "SALESFORCE_CRM"
+                }
+            ],
+            "innerBucketGroupFeed": []
+        }
+    ],
+    "dateRange": {
+        "dateRangeType": "CUSTOM",
+        "startDate": "2024-05-15T00:00:00.000Z",
+        "endDate": "2025-05-14T23:59:59.999Z"
+    },
+    "frequency": {
+        "frequencyType": "DAILY",
+        "days": null,
+        "weekDays": null,
+        "time": "00:00"
+    },
+    "impactType": "NEGATIVE_IMPACT",
+    "notificationGroups": [
+        "656f520385436032401ea8a9"
+    ],
+    "computationType": "ROW_WISE"
+},
+    "summary": {
+    "apiCall": "DOWNLOAD",
+    "dataPayload": {
+        "id": "67dbeb1acb80535cf06c9507",
+        "filterName": "automation backend salesforce",
+        "filterApplied": true,
+        "dateField": null,
+        "defaultFilter": false,
+        "globalFilter": true,
+        "saveToGlobal": false,
+        "dimensionFilters": [],
+        "metricFilters": [
+            {
+                "integrationType": "SALESFORCE_CRM",
+                "objectType": "SALESFORCE_CONTACT",
+                "bucketConditions": [
+                    {
+                        "key": "maxEmployees",
+                        "displayName": "Maximum Employee Size",
+                        "dataType": "INTEGER",
+                        "rawSearchOperatorType": "GREATER_THAN",
+                        "customMetric": false,
+                        "funnelStage": false,
+                        "funnelMetric": false,
+                        "prefix": "",
+                        "suffix": "",
+                        "existingField": false,
+                        "value": "2",
+                        "objectType": "SALESFORCE_CONTACT",
+                        "integrationType": "SALESFORCE_CRM",
+                        "conditionId": "d34a21c6-00b6-4597-a6fc-a80bd631f4f3"
+                    }
+                ],
+                "conditionId": "root",
+                "aggregationType": "AND",
+                "innerBucketGroupFeed": []
+            }
+        ],
+        "recordType": "SALESFORCE_LEAD",
+        "integrationType": "SALESFORCE_CRM",
+        "aggregationType": "YEARLY",
+        "widgetId": "67e651e7e6f79c2f958545af",
+        "startDate": "2022-03-17T00:00:00.000Z",
+        "endDate": "2024-03-17T23:59:59.999Z",
+        "sort": null,
+        "sortDirection": null,
+        "includeZero": true,
+        "xAxis": {
+            "key": "leadConvertedDate",
+            "displayName": "Last Activity",
+            "dataType": "DATE",
+            "customMetric": false,
+            "funnelStage": false,
+            "color": null,
+            "prefix": null,
+            "suffix": null
+        },
+        "yAxis": [
+            {
+                "color": null,
+                "customMetric": false,
+                "dataType": "DOUBLE",
+                "displayName": "automation backend funnel metrics",
+                "funnelStage": false,
+                "key": "automation_backend_funnel_metrics_C_1_C",
+                "prefix": "",
+                "suffix": "",
+                "funnelMetric": true,
+                "customFieldTrend": "POSITIVE"
+            }
+        ],
+        "excludeWeekends": true,
+        "limit": 25000,
+        "kpis": "automation_backend_funnel_metrics_C_1_C"
+    },
+    "dataEndpoint": "/v1/rawdata/custom/kpi/trend/download",
+    "widget_mapping_config": {
+        "widgetId": "67e651e7e6f79c2f958545af",
+        "reportId": "67e651e63b3e6476896d87a8",
+        "title": "Shawna Robinson",
+        "description": "dfg",
+        "chartType": "LINE_CHART_WITH_ONE_DROPDOWN",
+        "integrationType": "SALESFORCE_CRM",
+        "chartWidth": 12,
+        "chartHeight": 20,
+        "minChartWidth": 2,
+        "maxChartWidth": 12,
+        "minChartHeight": 10,
+        "maxChartHeight": 99,
+        "resizable": true,
+        "draggable": true,
+        "dataApiEndpoint": "/v1/rawdata/custom/kpi/trend",
+        "downloadDataApiEndpoint": "/v1/rawdata/custom/kpi/trend/download",
+        "searchable": false,
+        "autoComplete": false,
+        "previewImageUrl": "https://revlitix-app-public.s3.us-west-2.amazonaws.com/widget-reports/Multi+KPI+Trendlines.png",
+        "dataFilter": true,
+        "goalTracking": true,
+        "widgetEditable": true,
+        "lineChartWithOneDropdown": {
+            "dropdown1": {
+                "name": null,
+                "defaultSelected": null,
+                "values": [],
+                "dropdownPlaceholder": null,
+                "color": null,
+                "dropdownApiEndpoint": null
+            },
+            "xAxis": [
+                {
+                    "key": "leadConvertedDate",
+                    "displayName": "Last Activity",
+                    "dataType": "DATE",
+                    "customMetric": false,
+                    "funnelStage": false,
+                    "color": null,
+                    "prefix": null,
+                    "suffix": null
+                }
+            ],
+            "yAxis": [
+                {
+                    "key": "automation_backend_funnel_metrics_C_1_C",
+                    "displayName": "Record Count",
+                    "dataType": "INTEGER",
+                    "customMetric": false,
+                    "funnelStage": false,
+                    "color": "#7FD0F7",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "startDate": "2022-03-17T00:00:00.000Z",
+        "endDate": "2024-03-17T23:59:59.999Z",
+        "taskCount": 0,
+        "dateRangeType": "CUSTOM",
+        "aggregation": "YEARLY",
+        "globalFiltersMap": {
+            "67dbeb1acb80535cf06c9507": true
+        },
+        "conditionalFormattingRuleFeeds": [],
+        "widgetFilters": [
+            {
+                "id": "67dbeb1acb80535cf06c9507",
+                "filterName": "automation backend salesforce",
+                "filterApplied": true,
+                "dateField": null,
+                "defaultFilter": false,
+                "globalFilter": true,
+                "saveToGlobal": false,
+                "dimensionFilters": [],
+                "metricFilters": [
+                    {
+                        "integrationType": "SALESFORCE_CRM",
+                        "objectType": "SALESFORCE_CONTACT",
+                        "bucketConditions": [
+                            {
+                                "key": "maxEmployees",
+                                "displayName": "Maximum Employee Size",
+                                "dataType": "INTEGER",
+                                "rawSearchOperatorType": "GREATER_THAN",
+                                "customMetric": false,
+                                "funnelStage": false,
+                                "funnelMetric": false,
+                                "prefix": "",
+                                "suffix": "",
+                                "existingField": false,
+                                "value": "2",
+                                "objectType": "SALESFORCE_CONTACT",
+                                "integrationType": "SALESFORCE_CRM",
+                                "conditionId": "d34a21c6-00b6-4597-a6fc-a80bd631f4f3"
+                            }
+                        ],
+                        "conditionId": "root",
+                        "aggregationType": "AND",
+                        "innerBucketGroupFeed": []
+                    }
+                ]
+            }
+        ],
+        "showValues": false,
+        "reportAdded": false,
+        "recordType": "SALESFORCE_LEAD",
+        "dateFilter": true,
+        "dynamicWidget": false,
+        "customWidget": false,
+        "showFilterChips": false,
+        "comparisonAllowed": false,
+        "collapsed": false,
+        "sortDirection": "ASC",
+        "excludeWeekends": true,
+        "manualScale": false,
+        "openNotesPanel": true,
+        "prompt": "I want you to act as an AI Analyst with specialization in Ads/Analytics/Marketing/CRM, you will generate summary tailored to the needs of a Hands-on Marketing Leader.\n\nYou will be given Ads/Analytics/Marketing/CRM data. You have to perform analysis and generate summary.",
+        "position": 0,
+        "customTemplate": false
+    },
+    "widgetId": "67e651e7e6f79c2f958545af"
+},
+     "task": {
+    "name": "check",
+    "integrationType": "GOOGLE_ANALYTICS_FOUR",
+    "widgetId": "67dbf0f202771a1fb1ee29eb",
+    "assigneeUserId": "6729dcdf968b1a2b2f960d7e",
+    "assignee": "Automation-Tester (Myself)",
+    "description": "<p>checking</p>",
+    "dueDate": "2025-03-19T18:30:00.000Z",
+    "priority": "NO_PRIORITY",
+    "reportViewType": "default"
+},
+  "download": {
+    "startDate": "2024-02-05T00:00:00.000Z",
+    "endDate": "2025-02-03T23:59:59.999Z",
+    "kpis": "recordCount",
+    "widgetId": "67dd1215cca13d1daa031a5a",
+    "dimensionFilters": [],
+    "metricFilters": [],
+    "recordType": "SALESFORCE_CONTACT",
+    "integrationType": "SALESFORCE_CRM",
+    "aggregationType": "QUARTERLY",
+    "sort": {
+        "key": "lastActivityDate",
+        "displayName": "Last Activity",
+        "dataType": "DATE",
+        "customMetric": false,
+        "funnelStage": false,
+        "color": null,
+        "prefix": null,
+        "suffix": null
+    },
+    "sortDirection": "ASC",
+    "includeZero": true,
+    "xAxis": {
+        "key": "lastActivityDate",
+        "displayName": "Last Activity",
+        "dataType": "DATE",
+        "customMetric": false,
+        "funnelStage": false,
+        "color": null,
+        "prefix": null,
+        "suffix": null
+    },
+    "yAxis": [
+        {
+            "color": "#7FD0F7",
+            "customMetric": false,
+            "dataType": "INTEGER",
+            "displayName": "Record Count",
+            "funnelStage": false,
+            "key": "recordCount",
+            "prefix": "",
+            "suffix": "",
+            "funnelMetric": false
+        }
+    ],
+    "excludeWeekends": false,
+    "limit": 25000
+}
+
+}
