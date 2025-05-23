@@ -1,0 +1,34 @@
+{
+     "login": {
+    "emailId": "qat@revlitix.com",
+    "password": "Qa_Can_Save_You@Revlitix2",
+    "domain": "https://app.dev.revlitix.com"
+},
+    "report": {
+        "create": {
+            "reportName": "Joshua Ruiz"
+        },
+        "create_without_name": {
+            "reportName": ""
+        },
+        "update": {
+            "reportName": "check"
+        },
+        "duplicate": {
+            "reportName": "checking"
+        },
+        "share access": {
+            "reportId": "67c00f078e2d263f367604f7",
+            "userDetails": [
+                {
+                    "fullName": "niyog.v",
+                    "emailId": "niyog.v@revlitix.com",
+                    "userId": "66fbc6e58868ff595522fd77",
+                    "accessType": "VIEW"
+                }
+            ],
+            "viewType": "SHARED",
+            "accessType": null
+        }
+    }
+}

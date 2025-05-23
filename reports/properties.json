@@ -1,0 +1,12 @@
+{
+  "report": {
+    "login": "https://app.dev.revlitix.com/v1/tokens/login",
+    "create report": "https://app.dev.revlitix.com/v1/reports/view",
+    "share access": "https://app.dev.revlitix.com/v1/reports/view/share/access",
+    "view reports": "https://app.dev.revlitix.com/v1/reports/view/search",
+    "update reports": "https://app.dev.revlitix.com/v1/reports/view/custom/",
+    "duplicate report": "https://app.dev.revlitix.com/v1/reports/view/duplicate/",
+    "delete report": "https://app.dev.revlitix.com/v1/reports/view/",
+    "auth": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJfdSI6IjY3MjlkY2RmOTY4YjFhMmIyZjk2MGQ3ZSIsIl9uIjoiQXV0b21hdGlvbi1UZXN0ZXIiLCJfdXQiOiJBRE1JTiIsIl90IjoiUkVWMjMxMjA1MTYzODI2IiwiX3N0IjoiRU5URVJQUklTRSIsIl9kdSI6ZmFsc2UsIl9ydCI6IkFETUlOIiwiX2UiOiJxYXRAcmV2bGl0aXguY29tIiwiX2EiOlsiVVNFUiIsIkFETUlOIl0sImp0aSI6IjcyZDhhNjdhLWM2ZDQtNGVjZi04NTM3LTE4MGFjMjk0ZTc0NCIsImlhdCI6MTc0MTM0NDI4OSwiZXhwIjoxNzQzNTA0Mjg5fQ.PL2s2upbn6XKsHeuFdP9u-Jzy4e_zACe1b7ClqcYrx-mANAIhbfnDl7Oxenv7z0DJlffY90y7wLoK_QaisfRhA"
+  }
+}
